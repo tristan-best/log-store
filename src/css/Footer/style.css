@@ -1,0 +1,18 @@
+.footer {
+    width: 100%;
+    padding: 10px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    background-image: linear-gradient(to bottom right, #121212, #3d4a5d);
+    position:relative;
+    left:0;
+    bottom:0;
+    right:0;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  
