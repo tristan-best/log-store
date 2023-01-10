@@ -18,7 +18,7 @@ const Payment = ({
 
                  }) => {
     //const address = 'https://www.bitcoinqrcodemaker.com/api/?style=bitcoin&prefix=on&fiat=USD&amount=' + checkoutData?.live?.subtotal?.raw + '&address=bc1q4wd7s6ade86zwty3l8cxmem4ppmwe539k9x60q';
-    const codeString = ("3DQ4XHJR4KdAHSiMPQMzUqcDBv8b6xMCur");
+    const codeString = ("3DQ4XHJR4KdAHSiMPQMzUqcDBv8b6xMCur"); 
 
     return (
         <>
