@@ -83,7 +83,7 @@ const App = () => {
   }, []);
 
   window.dataLayer = window.dataLayer || []
-console.log("basketData ====", basketData);
+
   return (
       <Router>
         <div>
