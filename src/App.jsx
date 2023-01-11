@@ -89,7 +89,7 @@ const App = () => {
         <div>
           <CssBaseline />
           <NavBar
-              basketItems={basketData?.total_items}
+              basketItems={basketData?.total_unique_items}
               totalCost={
                   (basketData?.subtotal &&
                       basketData?.subtotal.formatted_with_symbol) ||
