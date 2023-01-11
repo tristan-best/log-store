@@ -17,7 +17,7 @@ const Basket = ({
   const loading = () => {
     setTimeout(() => {
       setShowSpinner(false);
-    }, 2000);
+    }, 5000);
     if (showSpinner) {
       return <Spinner />;
     }
