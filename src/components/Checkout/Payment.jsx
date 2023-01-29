@@ -29,7 +29,6 @@ const Payment = ({
                             <CardElement />
                             <Typography  gutterBottom style={{margin: 'auto'}} align="center">Pay {checkoutData.subtotal.formatted_with_code} With Bitcoin</Typography>
                             <div className="products-spinner">
-                            <iframe src="https://www.bitcoinqrcodemaker.com/crypto-price-widget/" style={{height:'150px',  width:'150px',  border: '0', }} title="Bitcoin QR price widget"></iframe>
                                 <img height="240px" style={{margin: 'auto'}} alt='btc' src={address}/>
                             </div>
                             <div className="products-spinner" style={{margin: 'auto'}}>
