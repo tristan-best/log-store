@@ -8,7 +8,7 @@ import {Typography} from "@mui/material";
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import {CopyToClipboard} from "react-copy-to-clipboard/src";
-import address from '../my-wallet.png'
+import address from '../bitcoin.png'
 
 
 const stripePromise = null;
